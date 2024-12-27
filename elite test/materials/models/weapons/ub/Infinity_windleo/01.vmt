@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/ub/infinity_windleo/01"
+	"$bumpmap" "models/weapons/ub/infinity_windleo/infinity_gold_flashlight_n"
+	"$lightwarptexture" "models/weapons/ub/infinity_windleo/lightwarp"
+	"$basemapluminancephongmask" "1"
+	"$halflambert" "1"
+	"$phong" "1"
+	"$phongalbedotint" "1"
+	"$phongboost" "20"
+	"$phongfresnelranges" "[1.1 0.6 1.1]"
+	"$selfillum" "1"
+	"$selfillummask" "models/weapons/ub/infinity_windleo/glow"
+	"$selfillumtint" ".6 .6 .6"
+	"color2" ".6 .6 .6"
+	"$nodecal" "1"
+}

@@ -1,5 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/v_models/Weapons/pistol/Shader_4"
-	$selfillum 1
-}
