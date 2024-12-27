@@ -1,0 +1,27 @@
+UnLitGeneric
+{
+	"$basetexture"	"models/player/uuz/pl\mb"
+	"$model" "1"
+		"$selfillum" "1"	 
+	"$basealphatype" "1"
+	"$selfillumtint" "[ 3.5 3.5 3.5 ]" 
+	"$selfillumscale" "1.0"
+        	
+	"$speculartint_by_basetexture" "1"
+Proxies
+{
+TextureScroll
+{
+texturescrollvar $baseTextureTransform
+		texturescrollrate 0.8
+		texturescrollangle 135.00
+}
+"Sine"
+		{
+			"resultVar"	"$alpha"
+			"sineperiod"	1
+			"sinemin"	0.3
+			"sinemax"	1
+			"timeoffset"	2220
+		}
+}
