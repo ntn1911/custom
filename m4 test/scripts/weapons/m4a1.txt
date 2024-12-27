@@ -1,7 +1,7 @@
 "Weapon_M4A1.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"1.0"
+	"volume"		"0.2"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"			"95,105"
 
@@ -11,7 +11,7 @@
 "Weapon_M4A1.Silenced"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"1.0"
+	"volume"		"0.2"
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"95,105"
 
