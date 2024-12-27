@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/player/uuz/public/fakevmt"
+	"$alphatest" 1
+
+	"$nodecal"	1
+}

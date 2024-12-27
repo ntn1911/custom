@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/uuz/pl/wings"
+	"$nocull" "1"
+}

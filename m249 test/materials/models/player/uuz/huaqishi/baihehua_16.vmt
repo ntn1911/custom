@@ -1,0 +1,41 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/uuz/huaqishi/baihehua_11"
+	"$lightwarptexture"		"models/player/uuz/public/lightwarp_2"
+
+	"$halflambert"	1
+	"$nodecal"	1
+	
+	"$detail" "models/player/uuz/pbear_v2/bear_body_space"
+	$detailscale 3
+	$detailblendmode 0
+	$detailblendfactor 0.25
+	
+    $translate  "[0 0]"
+    $playerPos  "[0 0 0]"
+    $mult       "[-1 1 1]"      // invert x
+    
+    //128       scale "0.03125"
+    //256       scale "0.015625"
+    //512       scale "0.0078125"
+    
+    Proxies
+    {
+        PlayerPosition
+        {
+            scale       "0.001"
+            resultVar   $playerPos
+        }
+        Multiply
+        {
+            srcVar1     $playerPos
+            srcVar2     $mult
+            resultVar   $translate
+        }
+        TextureTransform
+        {
+            translateVar    $translate
+            resultVar       $detailtexturetransform
+        }
+    }
+}

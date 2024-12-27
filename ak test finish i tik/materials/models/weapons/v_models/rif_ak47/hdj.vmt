@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+$baseTexture "models\weapons\v_models\rif_ak47\hdj"
+$lightwarptexture		"models\weapons\v_models\rif_ak47\piw"
+     "$color2" "[.6 .6 .6]"
+	"$blendtintbybasealpha" "1"
+	"$phong" "1"
+	"$phongboost" "25"
+	"$phongexponent" "15"
+	//"$phongwarptexture" "models\v_models\Weapons\shotgun\phongwarp_steel"
+	"$phongalbedotint" "1"
+	"$PhongFresnelRanges" "[ .1 .5 1 ]"
+	"$envmap" "env_cubemap"
+	"$basemapalphaenvmapmask" "1"
+	"$envmapfresnel" "1"
+	"$envmaptint" "[ 0.1 0.1 0.1 ]"
+    "$selfillum"	"1"
+
+	//"$phongexponenttexture" "models\v_models\Weapons\shotgun\exponent"
+}

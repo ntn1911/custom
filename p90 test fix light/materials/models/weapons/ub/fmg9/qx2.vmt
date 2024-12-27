@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+    "$basetexture" "models\weapons\ub\fmg9\qx2"
+
+ "$nocull"		"1"
+ "$additive" "1"
+ "$selfillum"   "1"
+
+ "Proxies"
+ {
+  "AnimatedTexture"
+{
+ "animatedTextureVar" "$basetexture"
+ "animatedTextureFrameNumVar" "$frame"
+ "animatedTextureFrameRate" 5.00
+ }
+}
+}

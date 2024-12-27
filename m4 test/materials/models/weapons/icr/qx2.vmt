@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\weapons\icr\qx2"
+ "$additive" "1"
+"$selfillum"   "1"
+"$nocull"		"1"
+Proxies
+{
+AnimatedTexture 
+{
+animatedTextureVar $basetexture 
+animatedTextureFrameNumVar $frame 
+animatedTextureFrameRate 18
+}
+}	
+}

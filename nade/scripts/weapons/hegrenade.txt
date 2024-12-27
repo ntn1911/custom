@@ -1,0 +1,51 @@
+"BaseGrenade.Explode"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_100dB"
+	"pitch"		"80,120"
+
+	"rndwave"
+	{
+		"wave"	"^weapons/M67\M67 Explode 1.wav"
+		"wave"	"^weapons/M67\M67 Explode 2.wav"
+		"wave"	"^weapons/M67\M67 Explode 3.wav"
+	}
+}
+"HEGrenade.Bounce"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"weapons/M67\M67 Bounce.wav"
+}
+"CSGO M67.Pull"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"weapons/M67\M67 Pull.wav"
+}
+"CSGO M67.Throw"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"weapons/M67\M67 Throw.wav"
+}
+
+"CSGO M67.Deploy"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"weapons/M67\M67 Deploy.wav"
+}

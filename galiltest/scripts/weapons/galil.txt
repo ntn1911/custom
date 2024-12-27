@@ -1,0 +1,138 @@
+
+"Weapon_Galil.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0"
+	"CompatibilityAttenuation"	"0.48"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave" "weapons/galilar/galil_01.wav"
+		"wave" "weapons/galilar/galil_02.wav"
+		"wave" "weapons/galilar/galil_03.wav"
+		"wave" "weapons/galilar/galil_04.wav"
+
+	}	
+}
+"Weapon_M4a1.SilencedShot1"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			")weapons\m4a1\m4a1-1.wav"
+}
+"Weapon_m4a1.Clipin1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\m4a1\clipin.wav"
+	
+}
+"Weapon_m4a1.Cliplocked1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\m4a1\cliplocked.wav"
+	
+}
+"Weapon_m4a1.deploy1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\m4a1\deploy.wav"
+	
+}
+"Weapon_m4a1.ready1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\m4a1\ready.wav"
+	
+}
+"Weapon_m4a1.clipout1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\m4a1\clipout.wav"
+	
+}
+"Weapon_M4A1.BoltBack1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\m4a1\slideback.wav"
+	
+}
+"Weapon_M4A1.BoltForward1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".7"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\m4a1\slideforward.wav"
+	
+}
+"Weapon_M4A1.Draw1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".7"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\m4a1\m4a1_draw.wav"
+	
+}
+"Weapon_M4A1.Screw1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".7"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"rndwave"
+        {
+	        "wave"		")weapons\m4a1\m4a1_silencer_screw_1.wav"
+                "wave"		")weapons\m4a1\m4a1_silencer_screw_2.wav"
+                "wave"		")weapons\m4a1\m4a1_silencer_screw_3.wav"
+                "wave"		")weapons\m4a1\m4a1_silencer_screw_4.wav"
+                "wave"		")weapons\m4a1\m4a1_silencer_screw_5.wav"
+                "wave"		")weapons\m4a1\m4a1_silencer_screw_6.wav"
+                "wave"		")weapons\m4a1\m4a1_silencer_screw_7.wav"
+        }	
+}
+"Weapon_move"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".7"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"rndwave"
+        {
+	        "wave"		")weapons\m4a1\movement1.wav"
+                "wave"		")weapons\m4a1\movement2.wav"
+                "wave"		")weapons\m4a1\movement3.wav"
+        }	
+}

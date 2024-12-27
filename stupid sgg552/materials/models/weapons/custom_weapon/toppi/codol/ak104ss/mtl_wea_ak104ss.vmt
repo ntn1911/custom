@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	$basetexture "models/weapons/custom_weapon/toppi/codol/ak104ss/mtl_wea_ak104ss"
+	$bumpmap "models/weapons/custom_weapon/toppi/codol/ak104ss/mtl_wea_ak104ss_normal"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.08 0.08 0.08]"
+
+	$phong 1
+	$phongexponenttexture "models/weapons/custom_weapon/toppi/codol/ak104ss/mtl_wea_ak104ss_exponent"
+	$phongfresnelranges "[0.5 0.75 1.5]"
+	$phongalbedotint 1
+	$phongexponent 32
+	$phongboost 0.98
+	$phongalbedoboost 40
+
+	$selfillum 1
+	$selfillummask "models/weapons/custom_weapon/toppi/codol/ak104ss/mtl_wea_ak104ss_selfillum"
+	$selfillumtint "[0.27 0.27 0.27]"
+
+	$nodecal 1
+}

@@ -1,0 +1,11 @@
+UnlitGeneric
+{
+	$basetexture "models/weapons/custom_weapon/toppi/codol/ak104ss/mtl_particle_swirl"
+
+	$translucent 1
+	$additive 1
+
+	$nodecal 1
+
+	$color "[1 0.40 0.12]"
+}

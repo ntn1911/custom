@@ -1,0 +1,41 @@
+VertexLitGeneric
+{
+    "$baseTexture"              "models/weapons/custom_weapon/toppi/codol/ak104ss\mb"
+
+    // T?t additive blending n?u không c?n
+    "$additive"                 "1"
+
+    // T? phát sáng
+    "$selfillum"                "1"
+
+    // Vô hi?u hóa ánh sáng môi tr??ng
+    "$ambientlighting"          "0"
+    "$lightwarptexture"         ""
+
+    // T?t ánh sáng ph?n x? (specular)
+    "$envmap"                   ""
+    "$phong"                    "0"
+
+    // N?u mu?n phát sáng không ph? thu?c ánh sáng ngoài
+    "$selfillumfresnel"         "1"
+    "$selfillumtint"            "[1 1 1]"
+
+    // Thêm ph?n proxy ?? ki?m soát alpha
+    Proxies
+    {
+        TextureScroll
+        {
+            texturescrollvar    "$baseTextureTransform"
+            texturescrollrate   0.5
+            texturescrollangle  100.00
+        }
+        "Sine"
+        {
+            "resultVar"         "$alpha"
+            "sineperiod"        1
+            "sinemin"           0.3
+            "sinemax"           1
+            "timeoffset"        2220
+        }
+    }
+}

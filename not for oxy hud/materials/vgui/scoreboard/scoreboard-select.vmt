@@ -1,0 +1,5 @@
+"UnlitGeneric" //maczko | scoreboard_v1
+{
+	"$basetexture" "vgui/scoreboard/scoreboard-select"
+	"$translucent" 1
+}

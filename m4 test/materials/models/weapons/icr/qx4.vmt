@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\weapons\icr\qx4"
+	"$additive" "1"
+	"$selfillum" "1"
+        "$selfillumtint" "0.1 0.1 0.1"
+}

@@ -1,0 +1,12 @@
+vertexlitgeneric 
+{
+ $basetexture models/weapons/v_models/rif_ak47/ak47
+ $phongexponenttexture models/weapons/v_models/rif_ak47/ak47_exponent
+ $phong 1
+ $phongboost 2
+ $phongalbedoboost 35
+ $phongfresnelranges "[.83 .83 1]"
+ $basemapalphaphongmask 1
+ $phongalbedotint 1
+ $phongdisablehalflambert 1
+}

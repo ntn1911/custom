@@ -1,0 +1,37 @@
+VertexLitGeneric
+{
+    "$basetexture" "models/weapons/ub/fmg9\mb"
+
+     "$selfillum"   "1"
+Proxies
+{
+	PlayerTeam
+	{
+		team 5
+		resultVar $proxTeam
+	}
+	
+	Subtract
+	{
+		srcVar1 	"$one"
+		srcVar2 	"$proxTeam"
+		resultVar 	"$alpha"    
+	}
+	
+	Multiply
+	{
+		srcVar1 	"$alpha"
+		srcVar2 	"$proxTeam"
+		resultVar 	"$alpha"    
+	}
+	
+	TextureScroll //轴向滚动 动态
+	{
+		texturescrollvar $baseTextureTransform
+		texturescrollrate 0.8
+		texturescrollangle 135.00
+	}
+	"GPU>=2?$phong" 1
+	}
+	
+}

@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+	$baseTexture		    "weapons\SS3Minigun\Minigun_D"
+	$bumpMap 				"weapons\SS3Minigun\Minigun_N"
+	$PhongExponentTexture 	"weapons\SS3Minigun\Minigun_G"
+	$lightwarptexture		"weapons\SS3Minigun\Minigun_LW"
+	
+	"$phong"	"1"
+	"$phongexponent"	"3"
+	"$phongalbedotint"	"1"
+	"$phongboost"	"0.3"
+	"$phongfresnelranges"	"[1 1 1]"
+    "$phongdisablehalflambert"  "1"
+
+    "$halflambert"                 "0"
+    "$nodecal"                     "1"
+    "$ambientocclusion"         "1"
+}

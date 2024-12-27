@@ -1,0 +1,149 @@
+"Weapon_USP.Single"{ 
+"channel" "CHAN_WEAPON" 
+"volume" "1.0" 
+"CompatibilityAttenuation" "1.0" 
+"pitch" "PITCH_NORM" 
+
+"rndwave" 
+{ 
+"wave" "weapons/usp/usp_unsilenced_01.wav" 
+"wave" "weapons/usp/usp_unsilenced_02.wav" 
+"wave" "weapons/usp/usp_unsilenced_03.wav" 
+
+} 
+} 
+"Weapon_USP.SilencedShot" 
+{ 
+"channel" "CHAN_WEAPON" 
+"volume" "1.0" 
+"CompatibilityAttenuation" "1.0" 
+"pitch" "PITCH_NORM" 
+
+"rndwave" 
+{ 
+"wave" "weapons/usp/usp_01.wav" 
+"wave" "weapons/usp/usp_02.wav" 
+"wave" "weapons/usp/usp_03.wav" 
+
+} 
+} 
+"Weapon_USP.Clipout" 
+{ 
+"channel" "CHAN_ITEM" 
+"volume" "1.0" 
+"CompatibilityAttenuation" "1.0" 
+"pitch" "95,105" 
+
+"wave" "weapons/usp/usp_clipout.wav" 
+} 
+"Weapon_USP.Clipin" 
+{ 
+"channel" "CHAN_ITEM" 
+"volume" "1.0" 
+"CompatibilityAttenuation" "1.0" 
+"pitch" "95,105" 
+
+"wave" "weapons/usp/usp_clipin.wav" 
+}
+
+"Weapon_USP.SilencerWeaponMove1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/usp/usp_silencer_screw_on_start.wav"
+}
+"Weapon_USP.SilencerScrew1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/usp/usp_silencer_screw1.wav"
+}
+"Weapon_USP.SilencerScrew2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/usp/usp_silencer_screw2.wav"
+}
+"Weapon_USP.SilencerScrew3"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/usp/usp_silencer_screw3.wav"
+}
+"Weapon_USP.SilencerScrew4"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/usp/usp_silencer_screw4.wav"
+}
+"Weapon_USP.SilencerScrew5"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/usp/usp_silencer_screw5.wav"
+} 
+} 
+"Weapon_USP.SilencerScrewOffEnd" 
+{ 
+"channel" "CHAN_ITEM" 
+"volume" "1.0" 
+"CompatibilityAttenuation" "1.0" 
+"pitch" "95,105" 
+
+"wave" "weapons/usp/usp_silencer_screw_off_end.wav" 
+
+"Weapon_USP.SilencerScrewOnStart" 
+{ 
+"channel" "CHAN_ITEM" 
+"volume" "1.0" 
+"CompatibilityAttenuation" "1.0" 
+"pitch" "95,105" 
+
+"wave" "weapons/usp/usp_silencer_screw_on_start.wav" 
+} 
+
+"Weapon_USP.Slideback" 
+{ 
+"channel" "CHAN_ITEM" 
+"volume" "1.0" 
+"CompatibilityAttenuation" "1.0" 
+"pitch" "95,105" 
+
+"wave" "weapons/usp/usp_slideback.wav" 
+} 
+"Weapon_USP.Sliderelease" 
+{ 
+"channel" "CHAN_BASE1" 
+"volume" "1.0" 
+"CompatibilityAttenuation" "1.0" 
+"pitch" "95,105" 
+
+"wave" "weapons/usp/usp_sliderelease.wav" 
+} 
+"Weapon_USP.Draw" 
+{ 
+"channel" "CHAN_ITEM" 
+"volume" "1.0" 
+"CompatibilityAttenuation" "1.0" 
+"pitch" "95,105" 
+
+"wave" "weapons/usp/usp_draw.wav" 
+} 

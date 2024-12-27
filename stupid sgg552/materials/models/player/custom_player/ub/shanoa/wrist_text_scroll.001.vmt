@@ -1,0 +1,67 @@
+VertexlitGeneric
+{
+	"$basetexture" "models/player/custom_player/ub/shanoa/scroll"	
+	
+	"$lightwarptexture" "models/player/custom_player/ub/shanoa/warp"	
+	
+    "$nocull" 1        
+	"$nodecal" 1       
+
+	"$phong" "0"
+	"$phongalbedotint" "1"                
+	"$halflambert" "1"
+	"$phongboost"	".04"                 
+	//"$PhongExponent" "1.0"                
+	"$phongfresnelranges"	"[1 .1 .1]"
+	
+	$additive 1
+
+		
+	"$selfillum" "1"
+	
+	$selfillumtint "[0 0 0]"
+	$min 0.1
+	
+	"Proxies"
+	{
+		Sine
+		{
+				"sineperiod" 6
+				"sinemin" "0.1"
+				"sinemax" "0.25"
+				"timeoffset" "5"
+				"resultVar" "$min"
+		}
+		Sine
+		{
+				"sineperiod" 10
+				"sinemin" "$min"
+				"sinemax" "1.0"
+				"timeoffset" "5"
+				"resultVar" "$selfillumtint[0]"
+		}
+		Sine
+		{
+				"sineperiod" 10
+				"sinemin" "$min"
+				"sinemax" "1.0"
+				"timeoffset" "5"
+				"resultVar" "$selfillumtint[1]"
+		}
+		Sine
+		{
+				"sineperiod" 10
+				"sinemin" "$min"
+				"sinemax" "1.0"
+				"timeoffset" "5.0"
+				"resultVar" "$selfillumtint[2]"
+		}
+		TextureScroll
+		{
+			texturescrollvar $baseTextureTransform
+			texturescrollrate 0.05
+			texturescrollangle 0.00
+		}
+
+	}	
+}

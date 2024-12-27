@@ -1,0 +1,43 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models/player/custom_player/ub/shanoa/huan"
+"$additive" "1"
+"$selfillum"   "1"
+"$nocull"		"1"
+Proxies
+{
+	PlayerTeam
+		{
+			team 5 
+			resultVar $proxTeam
+		}
+	Subtract
+		{
+			srcVar1 $one
+			srcVar2 $proxRange
+			resultVar $alpha
+		}
+	Multiply
+		{
+			srcVar1 $alpha
+			srcVar2 $proxTeam
+			resultVar $alpha
+		}
+	TextureScroll
+		{
+			texturescrollvar $baseTextureTransform
+			texturescrollrate 0.5
+			texturescrollangle 245.00		\\其中0度表示向右滚动，90度表示向上滚动，180度表示向左滚动，270度表示向下滚动
+		}
+	"Sine"
+		{
+			"resultVar"	"$alpha"
+			"sineperiod"	10
+			"sinemin"	0.5	//最小值 0 为全透明
+			"sinemax"	1 //最大值 1 为不透明
+			"timeoffset"	2220
+		}
+}
+
+
+}

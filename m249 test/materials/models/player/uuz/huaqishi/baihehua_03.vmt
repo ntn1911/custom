@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/uuz/huaqishi/baihehua_13"
+	"$lightwarptexture"		"models/player/uuz/public/lightwarp_2"
+
+	"$halflambert"	1
+	"$nodecal"	1
+	"$alphatest" 1
+	"$nocull" 1
+}

@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\weapons\icr\3"
+	
+	"$selfillum" "1"
+	"$lightwarptexture" "models\weapons\icr\w2"
+    "Proxies"
+    {
+        TextureScroll
+        {
+            texturescrollvar $baseTextureTransform
+            texturescrollrate 0.30
+            texturescrollangle 310
+        }
+    }
+
+
+}

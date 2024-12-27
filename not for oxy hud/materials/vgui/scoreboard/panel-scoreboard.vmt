@@ -1,0 +1,8 @@
+"UnlitGeneric" //maczko | scoreboard_v1
+{
+	"$basetexture" "vgui/scoreboard/panel-scoreboard"
+	"$translucent" 1
+    $gammacolorread .3
+    $linearwrite 1
+    $alpha .1
+}

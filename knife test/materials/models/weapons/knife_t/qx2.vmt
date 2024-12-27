@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+"$basetexture" "models\weapons\knife_t\qx2"
+"$lightwarptexture" "models\weapons\knife_t\w2"
+ "$nocull"		"1"
+ "$additive" "1"
+
+Proxies
+{
+AnimatedTexture //动态贴图
+{
+animatedTextureVar $basetexture 
+animatedTextureFrameNumVar $frame 
+animatedTextureFrameRate 18 
+}
+}

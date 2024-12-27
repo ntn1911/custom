@@ -1,0 +1,12 @@
+UnlitGeneric
+{
+	$basetexture "models/weapons/custom_weapon/toppi/codol/ak104ss/mtl_glow_ani"
+
+	$alpha 0.69
+	$translucent 1
+	$additive 1
+
+	$nodecal 1
+
+	$color "[0.98 0.40 0.12]"
+}

@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\v_models\weapons\codol_mp5sd\lg1"
+	"$additive" "1"
+	"$selfillum" "1"
+	"$lightwarptexture" " \w2"
+    "Proxies"
+    {
+        TextureScroll
+        {
+            texturescrollvar $baseTextureTransform
+            texturescrollrate 0.15
+            texturescrollangle 310
+        }
+    }
+}
+
+
+

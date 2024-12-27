@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/v_models/Weapons/pistol/Ebony_diff"
+	"$bumpmap" "models/v_models/Weapons/pistol/EBony_bmp"
+	$selfillum 1
+}

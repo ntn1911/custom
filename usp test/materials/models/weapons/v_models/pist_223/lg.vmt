@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\weapons\v_models\pist_223\lg1"
+	"$additive" "1"
+	"$selfillum" "1"
+	"$lightwarptexture" " models\weapons\v_models\pist_223\w2"
+    "Proxies"
+    {
+        TextureScroll
+        {
+            texturescrollvar $baseTextureTransform
+            texturescrollrate 0.15
+            texturescrollangle 310
+        }
+    }
+}
+
+
+

@@ -1,0 +1,14 @@
+UnlitGeneric
+{
+	"$basetexture"	"models\player\t_phoenix\t_phoenix"
+	 "$envmap" 			"env_cubemap"
+	 "$bumpmap" "models/player/t_phoenix\t_phoenix_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.1 .1 .1]"
+	"$envmapcontrast" .7
+	"$phong" 1
+	"$phongboost" 6
+	"$phongfresnelranges" "[.2 1 0]"
+	"$phongalbedotint" 1
+	 "$selfillum" 1
+}

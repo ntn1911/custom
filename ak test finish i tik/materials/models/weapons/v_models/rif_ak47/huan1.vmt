@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\v_models\rif_ak47\huan"
+       $lightwarptexture       "models\weapons\v_models\rif_ak47\piw"
+	
+	$alpha 0.7
+	"$selfillum"   "1"
+	$selfillumtint "1 1 1"
+	//"$translucent" 1
+	
+}

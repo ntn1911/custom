@@ -1,0 +1,82 @@
+"Weapon_TMP.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave" "weapons/mp9/mp9_01.wav"
+		"wave" "weapons/mp9/mp9_02.wav"
+		"wave" "weapons/mp9/mp9_03.wav"
+		"wave" "weapons/mp9/mp9_04.wav"
+
+	}
+}
+
+"Weapon_MP9.Clipout"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/ub/swzy/ClipLocked.mp3"
+}
+
+"Weapon_MP9.Clipin"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/ub/swzy/ClipIn.mp3"
+}
+
+"Weapon_MP9.Draw"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/ub/swzy/Draw.mp3"
+}
+"Weapon_MP9.BoltBack"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/mp9/mp9_boltback.wav"
+}
+"Weapon_MP9.BoltForward"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/mp9/mp9_boltforward.wav"
+}
+"Weapon_MP9.FullAutoButton"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/xnet/car/FullAutoButton.wav"
+}
+"Weapon_MP9.ClipLocked"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/xnet/car/ClipLocked.wav"
+}

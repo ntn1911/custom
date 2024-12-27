@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "console/background01_widescreen"
+	"$additive" "1"
+	"$nocull" "1"
+
+"$frame" "63"
+"Proxies" 
+{
+"AnimatedTexture" 
+{ 
+"animatedTextureVar" "$basetexture" 
+"animatedTextureFrameNumVar" "$frame" 
+"animatedTextureFrameRate" "20" //this is the FPS that the texture will animate at
+}

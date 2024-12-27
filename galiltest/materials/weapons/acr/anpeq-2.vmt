@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "weapons\ACR\ANPEQ-2"
+	"$bumpmap" "weapons\ACR\ANPEQ-2_norm"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong" 		"1"
+	"$phongexponent" 	"30"
+	"$phongboost" "0.85"
+	"$phongfresnelranges" "[1 2.5 5]"
+     //	"$phongalbedotint" "1"
+}

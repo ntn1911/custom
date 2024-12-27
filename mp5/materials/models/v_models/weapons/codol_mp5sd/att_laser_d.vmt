@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\v_models\weapons\codol_mp5sd\att_laser_d"
+$bumpmap "models\v_models\weapons\codol_mp5sd\att_laser_n"
+$phongexponenttexture "models\v_models\weapons\codol_mp5sd\att_laser_s"
+
+$phong 1
+$phongboost 5
+$phongfresnelranges "[1 2 1]"
+$nocompress 1
+$basemapalphaphongmask 1
+$phongalbedotint 1
+$nocull 1
+$phong 1
+$phongalbedoboost 5
+$envmap env_cubemap
+$envmapfresnel 1
+$envmapFresnelMinMaxExp "[1 1 1]"
+$envmaptint "[1.5 1.5 1.5]"
+
+$selfillum 1
+$selfillummask "models\v_models\weapons\codol_mp5sd\mp5sd_selfillum"
+$selfillumtint "[0.3 0.3 0.3]"
+
+}

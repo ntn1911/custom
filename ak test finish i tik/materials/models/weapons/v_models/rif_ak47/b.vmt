@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+$baseTexture "models\weapons\v_models\rif_ak47\b100"
+
+$selfillum 1
+$selfillummask "models\weapons\v_models\rif_ak47\glow 92"
+	"$nodecal" 1
+}

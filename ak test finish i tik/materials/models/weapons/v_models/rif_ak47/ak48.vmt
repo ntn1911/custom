@@ -1,0 +1,39 @@
+"VertexLitGeneric"
+{
+$baseTexture "models\weapons\v_models\rif_ak47\ak47"
+"$detail" "models\weapons\v_models\rif_ak47\lg"
+	$bumpmap "models\weapons\v_models\rif_ak47\n"
+	$phongexponenttexture "models\weapons\v_models\rif_ak47\e"
+	"$phongwarptexture" "models\weapons\v_models\rif_ak47\p1"
+
+	$phong	"1"
+	$phongboost	"0.55"
+	$phongfresnelranges	"[2 4 9]"
+	"$phongalbedotint" "1"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.007 .007 .007]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"1"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"22"
+	$nocull                  "1"
+    
+    "$detailscale" "1" // 细节贴图缩放比例
+    "$detailblendfactor" "1" // 细节贴图混合强度,0为透明，1为完全不透明，小于0为负片效果
+    "$detailblendmode" "5" // 细节贴图混合模式，模式5通常用于乘法混合
+
+    "Proxies"
+    {
+        "TextureScroll"
+        {
+            "texturescrollvar" "$detailtexturetransform" // 细节贴图变换变量
+            "texturescrollrate" "0.1" // 细节贴图滚动速度
+            "texturescrollangle" "0" // 细节贴图滚动角度
+        }
+    }
+
+}

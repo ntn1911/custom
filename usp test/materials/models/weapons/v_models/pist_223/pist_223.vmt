@@ -1,0 +1,26 @@
+VertexLitGeneric
+{
+
+$baseTexture "models\weapons\v_models\pist_223\pist_223"
+
+
+$phong 1
+$phongboost 4
+$phongalbedoboost 60
+$selfillum"1"
+
+$phongfresnelranges "[.8 .8 1]"
+$nocompress 1
+$phongexponenttexture "models\weapons\v_models\pist_223\pist_223_exponent"
+$basemapalphaphongmask 1
+$envmap env_cubemap
+$envmapfresnel 1
+$envmapFresnelMinMaxExp "[10 40 .4]"
+$envmaptint 		"[.2 .2 .2]"
+
+$phongalbedotint 1
+$phongdisablehalflambert 1
+
+$nocull 1
+
+}

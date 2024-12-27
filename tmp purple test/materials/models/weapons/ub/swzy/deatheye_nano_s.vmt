@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/ub/swzy/deatheye_nano_s"
+	"$phong" "1"
+	"$nocull" "1"
+	"$selfillum" "1"
+	"$nodecal" "1"
+}

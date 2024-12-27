@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/ub/fmg9/smg36d"
+	"$bumpmap"  "models/weapons/ub/fmg9/3"
+	"$phong" "1"
+	"$nodecal" "1"
+$phong                      "1"
+    $phongtint                  "[.8 .7 .6]"
+    $phongboost                 "1.1"
+    $phongfresnelranges         "[1 3 5]"
+    $phongexponent              "20"
+    $envmap                     env_cubemap
+    $envmaptint                 "[.05 .05 .05]"
+    $selfillum                  "1"
+    $selfillummask              "white"
+}

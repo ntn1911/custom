@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\weapons\v_models\rif_ak47\quanxi"
+	"$additive" "1"
+	"$selfillum" "1"
+        "$selfillumtint" "0.1 0.1 0.1"
+}

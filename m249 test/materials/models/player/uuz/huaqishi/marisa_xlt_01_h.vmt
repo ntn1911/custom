@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/uuz/marisa_xlt_v2/marisa_xlt_01"
+	"$lightwarptexture"		"models/player/uuz/public/lightwarp_2"
+	"$nodecal" 1
+	"$nocull" 1
+}

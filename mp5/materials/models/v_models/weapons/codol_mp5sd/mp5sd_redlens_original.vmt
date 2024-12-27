@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$basetexture models\v_models\weapons\codol_mp5sd\mp5sd_redlens
+$translucent 1
+$nocull 1
+
+}

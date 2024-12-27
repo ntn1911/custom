@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "weapons\ACR\123"
+    "$additive" "1"
+	"$selfillum" "1"
+    //"$selfillummask "weapons\ACR\mb"
+	
+	
+	
+	"Proxies"
+	{
+	 AnimatedTexture //动态贴图
+    {
+     animatedTextureVar $basetexture //以$basetexture贴图
+     animatedTextureFrameNumVar $frame //贴图的帧播放
+     animatedTextureFrameRate 20
+	   }
+    }
+
+
+}

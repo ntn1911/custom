@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+"$basetexture" "models\weapons\knife_t\qx3"
+"$lightwarptexture" "models\weapons\knife_t\w2"
+ "$nocull"		"1"
+ "$additive" "1"
+ }
