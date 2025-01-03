@@ -12,7 +12,7 @@ VertexLitGeneric
 {
  "animatedTextureVar" "$basetexture"
  "animatedTextureFrameNumVar" "$frame"
- "animatedTextureFrameRate" 5.00
+ "animatedTextureFrameRate" 0.5
  }
 }
 }

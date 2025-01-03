@@ -1,7 +1,0 @@
-"Spritecard"
-{
-	"$basetexture" "particle/Ac/sq_fulldustfront1_2"
-	"$translucent" 1
-//             "$additive" 1
-	"$overbrightfactor" "1"
-}
