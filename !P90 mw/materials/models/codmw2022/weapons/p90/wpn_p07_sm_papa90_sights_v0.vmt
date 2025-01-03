@@ -1,0 +1,49 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\CoDMW2022\Weapons\p90\wpn_p07_sm_papa90_sights_v0"
+"$bumpmap" "models\CoDMW2022\Weapons\p90\wpn_p07_sm_papa90_sights_v0_n"
+
+    "$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "4"
+
+	"$phongfresnelranges" "[2 1.2 8]"
+	"$phongalbedotint" "1"
+	"$normalmapalphaenvmapmask" "0"
+
+	"$phongexponenttexture" "models\CoDMW2022\Weapons\p90\exponent"
+	
+	$envmapfresnel 1
+    "$rimlight" "1"//轮廓光，在phong开启时才可以使用
+    "$rimlightexponent" "255"
+    "$rimlightboost" "255"
+    $lightwarptexture     "models\CoDMW2022\Weapons\p90\DDM4V5_LW"
+    $diffuseexp     "1"
+	
+
+ $envmap                     "env_cubemap"
+    $basemapalphaenvmapmask     "1"
+    
+    "$diffuseexp" "0.8"
+
+        "$nocull" 1
+    "$selfillum" "1" // 启用自发光效果
+    "$selfillumtint" "[.8 .8 .8]" // 自发光颜色和亮度，RGB格式
+    "$selfillumfresnel" "1" // 启用 Fresnel 效果
+    "$selfillumfresnelminmaxexp" "[.5 .5 1]" //控制 Fresnel 效果的最小值、最大值和指数。可以调整这些值来改变自发光的亮度和过渡效果
+
+    "$detail" "models\CoDMW2022\Weapons\p90\lg" // 细节贴图路径
+    "$detailscale" "1" // 细节贴图缩放比例
+    "$detailblendfactor" "1" // 细节贴图混合强度,0为透明，1为完全不透明，小于0为负片效果
+    "$detailblendmode" "5" // 细节贴图混合模式，模式5通常用于乘法混合
+
+    "Proxies"
+    {
+        "TextureScroll"
+        {
+            "texturescrollvar" "$detailtexturetransform" // 细节贴图变换变量
+            "texturescrollrate" "0.1" // 细节贴图滚动速度
+            "texturescrollangle" "0" // 细节贴图滚动角度
+        }
+	}
+}

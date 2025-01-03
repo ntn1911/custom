@@ -1,7 +1,0 @@
-particles_manifest
-{
-	"file"		"!particles/thisshitsuck.pcf"
-	"file"		"!particles/angst.pcf"
-}
-
-// If a filename has an ! in front of it, it will always be precached.

@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\codmw2022\weapons\p90\att_ammo_5x28"
+"$bumpmap" "models\codmw2022\weapons\p90\att_ammo_5x28"
+
+	"$nocull" "1"
+	
+	// PHONG SHADING
+"$phong" 		"1"
+"$phongalbedotint"			"1"
+"$phongalbedoboost"			"5"
+"$phongboost" "1"
+"$phongfresnelranges" "[1.5 4.8 7.9]"
+	$normalmapalphaphongmask    	1
+
+	// ENVIRONMENT REFLECTION
+    $envmap	"env_cubemap"
+"$envmapfresnel" 			"1"
+"$envmapFresnelMinMaxExp"		"[1 1 1]"
+"$envmaptint" "[.05 .05 .05]"
+
+    "$selfillum" "1" // 启用自发光效果
+    "$selfillumtint" "[.8 .8 .8]" // 自发光颜色和亮度，RGB格式
+    "$selfillumfresnel" "1" // 启用 Fresnel 效果
+    "$selfillumfresnelminmaxexp" "[.5 .5 1]" //控制 Fresnel 效果的最小值、最大值和指数。可以调整这些值来改变自发光的亮度和过渡效果
+
+
+
+
+}

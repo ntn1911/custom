@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+    "$basetexture" "models\CoDMW2022\Weapons\p90\qx"
+
+ "$nocull"		"1"
+ "$additive" "1"
+ "$selfillum"   "1"
+ Proxies
+{
+	TextureScroll //轴向滚动 动态
+	{
+		texturescrollvar $baseTextureTransform
+		texturescrollrate 0.5
+		texturescrollangle 180		\\其中0度表示向右滚动，90度表示向上滚动，180度表示向左滚动，270度表示向下滚动
+	}
+}
+}

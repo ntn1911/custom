@@ -1,0 +1,34 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\CoDMW2022\Weapons\p90\light"
+"$bumpmap" "models\CoDMW2022\Weapons\p90\light_n"
+
+    "$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "4"
+
+	"$phongfresnelranges" "[2 1.2 8]"
+	"$phongalbedotint" "1"
+	"$normalmapalphaenvmapmask" "0"
+
+	"$phongexponenttexture" "models\CoDMW2022\Weapons\p90\exponent"
+	
+	$envmapfresnel 1
+    "$rimlight" "1"//轮廓光，在phong开启时才可以使用
+    "$rimlightexponent" "255"
+    "$rimlightboost" "255"
+    $lightwarptexture     "models\CoDMW2022\Weapons\p90\DDM4V5_LW"
+    $diffuseexp     "1"
+	
+
+ $envmap                     "env_cubemap"
+    $basemapalphaenvmapmask     "1"
+    $envmaptint                 "[ .04 .04 .04 ]"
+
+        "$nocull" 1
+
+	"$selfillum" "1" // 启用自发光效果
+    "$selfillumtint" "[.8 .8 .8]" // 自发光颜色和亮度，RGB格式
+    "$selfillumfresnel" "1" // 启用 Fresnel 效果
+    "$selfillumfresnelminmaxexp" "[.5 .5 1]" //控制 Fresnel 效果的最小值、最大值和指数。可以调整这些值来改变自发光的亮度和过渡效果
+}
