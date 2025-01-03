@@ -1,0 +1,5 @@
+"VertexlitGeneric"{
+	"$basetexture" "models\weapons\v_models\CF_xiuluo\guang"
+	"$additive" 	"1"
+	"$Selfillum"	"1"
+}
